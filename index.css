@@ -1,0 +1,191 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  /*font-family:roboto*/
+}
+
+.hero{
+    height:450px;
+    width:100%;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-white{
+    color: white;
+}
+
+.nav{
+    height: 80px;
+    width:100%;
+    /*background: #000;*/
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+   /* background: red;*/
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+/*.right{
+    padding-left: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background:rgb(90, 90, 13);
+}
+
+.investor{
+    padding-left:10px;
+    padding-right:10px;
+    background:rgb(67, 67, 65);
+}
+
+.restaurant{
+    padding-left:10px;
+    padding-right:10px;
+    background:rgb(57, 57, 16);
+}
+
+.login{
+    padding-left:10px;
+    padding-right:10px;
+    background:rgb(65, 65, 41);
+}
+
+.signup{
+    padding-left:10px;
+    padding-right:10px;
+}*/ /*1*/
+
+/*.icon{  
+    padding-left: 200px;
+    padding-right: 200px;
+    background: black;
+}
+
+.icon1{
+    font-size: 500%;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.icon2{
+    font-size: 400%;
+    text-align:center;
+    font-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: brown;
+}*/ /*2*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    /*background-color: black;*/
+}
+
+.define{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.search{
+    margin-top: 23px;
+    height:50px;
+    width: 700px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fi-ss-marker{
+    color: rgb(255, 90, 90);
+    font-size: 25px;
+}
+
+.fi-br-search{
+    margin-left: 10px;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
+.city{
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+
+.city:focus{
+    outline:none;
+}
+
+.diff{
+    font-weight: 200;
+    color: black;
+}
+
+.dish{
+    margin-left: 10px;
+    height: 100%;
+    font-size: 20px;
+    width: 350px;
+    border: none;
+}
+
+.dish:focus{
+    outline:none;
+}
+
+
+/*
+
+x- margin-auto | text-align:center | align="center | display:flex justify-content:center
+y- display:flex align-items:center 
+x-y display:flex align-items:center jusify-content:center
+
+*/
+
+.card{
+    height: 240px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 0.1px solid rgb(195, 195, 195);
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+.card_container{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card_img{
+    height: 70%;
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.1);
+}
